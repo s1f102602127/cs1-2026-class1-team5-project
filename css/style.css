@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://thumb.ac-illust.com/eb/ebaa3aac5f3868bc9bd6f80b3e9359a3_t.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.shop img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}

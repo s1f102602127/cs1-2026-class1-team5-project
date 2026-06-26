@@ -4,10 +4,6 @@ body {
     background-position: center;
 }
 
-h1 {
-    text-align: center;
-}
-
 .shop {
     display: flex;
     align-items: center;
@@ -20,4 +16,38 @@ h1 {
     height: 220px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.title {
+    position: relative;
+    width: fit-content;
+    margin: 120px auto 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.hukidasi {
+    position: absolute;
+    top: -90px;
+    right: -80px;
+    width: 210px;
+}
+
+.gazou {
+    width: 100%;
+}
+
+.hukidasi div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
 }
